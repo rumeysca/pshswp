@@ -23,9 +23,3 @@ void	pb(t_list **a_push, t_list **b_push)
 	push(a_push, b_push);
 	write(1, "pb\n", 3);
 }
-
-void	pp(t_list **a_push, t_list **b_push)
-{
-	push(a_push, b_push);
-	write(1, "pb\n", 3);
-}
